@@ -4,6 +4,7 @@ from roboticstoolbox.models.URDF.FrankieOmni import FrankieOmni
 from roboticstoolbox.models.URDF.UR3 import UR3
 from roboticstoolbox.models.URDF.UR5 import UR5
 from roboticstoolbox.models.URDF.UR10 import UR10
+from roboticstoolbox.models.URDF.UR10e import UR10e
 from roboticstoolbox.models.URDF.Puma560 import Puma560
 from roboticstoolbox.models.URDF.px100 import px100
 from roboticstoolbox.models.URDF.px150 import px150
@@ -31,6 +32,7 @@ __all__ = [
     "UR3",
     "UR5",
     "UR10",
+    "UR10e",
     "Puma560",
     "px100",
     "px150",
