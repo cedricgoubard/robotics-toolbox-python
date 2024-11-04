@@ -8,7 +8,7 @@ class UR10e(Robot):
     def __init__(self):
 
         links, name, urdf_string, urdf_filepath = self.URDF_read(
-            "ur_e_description/urdf/ur10e.urdf.xacro"
+            "ur_e_description/urdf/ur10e.xacro"
         )
 
         super().__init__(
